@@ -15,7 +15,7 @@ for i in range (n):
             t=a[j]
             a[j]=a[j+1]
             a[j+1]=t
-print("outtttttt" )
+print("outtttttt")
 for i in a:
     print(i,end=" ")
 print("total hits=",c)
