@@ -7,7 +7,7 @@ def selection(nums):
         chhotu = i
 
         for j in range(i+1, n):
-            c=+1
+            c+=1
             if nums[chhotu] > nums[j]:
                 chhotu = j
 
